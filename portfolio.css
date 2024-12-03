@@ -1,0 +1,73 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Quantico", serif;
+    line-height: 1.6;
+    color: #333;
+}
+
+header {
+    background-image: url(images/fond.png);
+    background-repeat: no-repeat;
+    align-content: center;
+    background-color: #f4f4f4;
+    padding: 1rem;
+    height: 17rem;
+    
+}
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: center; /* Centre les éléments horizontalement */
+    align-items: center; /* Centre les éléments verticalement */
+    flex-direction: row;
+    padding: 0;
+}
+
+nav ul li {
+    margin-right: 20px;
+
+}
+nav ul li a {
+    color: white;
+    background: rgb(1, 165, 247);
+    padding: 0.5rem 1rem;
+    border-radius: 15px;
+    text-decoration: none;
+    text-decoration: none;
+    font-size: 1.8rem;
+    border: 2px solid rgb(30, 6, 247);
+
+}
+
+main {
+    padding: 2rem;
+    margin-bottom: 2rem;
+}
+
+section {
+
+    padding: 1rem;
+    margin-bottom: 2rem;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+h1, h2 {
+    color: #333;
+}
+
+
+footer {
+    
+    flex-direction: flex-start ;
+    align-content: end;
+    background-image: url(./images/donf.jpg);
+    background-repeat: no-repeat;
+    height: 17rem;
+    color: white;
+}
