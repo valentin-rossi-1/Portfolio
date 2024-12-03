@@ -4,17 +4,19 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My Portfolio</title>
+    <meta name="description" content="View Valentin's portfolio">    <!-- Adds a description for SEO -->
     <link rel="stylesheet" href="portfolio.css">
     <link rel="icon" href="images/geek.jpg" type="images/x-icon">
     
 </head>
 <body>
     <header>
-        <nav class="hnv">
+        <nav>
             <ul>
                 <li><a href="#home">Home</a></li>
-                <li><a href="#about">About</a></li>
+                <li><a href="#about">About me</a></li>
                 <li><a href="#projects">Projects</a></li>
+                <li><a href="#find">Find me online</a></li>
             </ul>
         </nav>
     </header>
@@ -25,37 +27,46 @@
             <p>This is where I showcase my skills and projects.</p>
         </section>
 
-        <section >
+        <section id="about">
             <h2>About Me</h2>
-            <p>Brief introduction about yourself.</p>
+            <p>Passionate about IT for a long time, I recently decided to turn this interest into reality by joining the Bachelor IT program at La Plateforme. My personal and professional experiences have allowed me to develop strong adaptability skills and a passion for continuous learning.  </p>
         </section>
 
         <section id="projects">
             <h2 >My Projects</h2>
-            <div class="project-grid">
-                <arti class="project">
-                    <img src="project1.jpg" alt="Project 1">
-                    <h3>Project 1</h3>
+            <div class="">
+                <article>
+                    <h3> Currently working on Homelab</h3>
                     <p>Description of Project 1</p>
                 </article>
-                <article class="project">
-                    <img src="project2.jpg" alt="Project 2">
+                <article>
                     <h3>Project 2</h3>
                     <p>Description of Project 2</p>
                 </article>
-                <article class="project">
-                    <img src="project3.jpg" alt="Project 3">
+                <article>
                     <h3>Project 3</h3>
                     <p>Description of Project 3</p>
                 </article>
             </div>
         </section>
 
+        <section  id="find">
+            <h2> Find me online</h2>
+            <ul class="find-class">
+                <li class="findli"><a href="https://x.com/valtuco?t=BzKD3D_xw1yBNU1bJkjvIg&s=03"target="_blank" aria-label="Visit my Twitter"><img src="./images/Twitter.jpg" alt="Twitter" class="social-icon"></a></li>
+                <li class="findli"><a href="https://www.linkedin.com/in/valentin-rossi-941791114/" target="_blank" aria-label="Visit my Linkedin"><img src="./images/logo-rond-linkedin-isole-fond-blanc_469489-1046.avif" alt="instagram" class="social-icon"></a></li>
+                <li class="findli"><a href="https://github.com/valentin-rossi-1" target="_blank" aria-label="Visit my Github">
+                <img src="./images/Github.png" alt="Github" class="social-icon"></a></li>
+            </ul>
+
+
+        </section>
 
     </main>
 </body>
 
-<footer>
+<footer class="foot-class" >
+
     <p>&copy; 2024 Rossi Val. All rights reserved.</p>
 </footer>
 </html>

@@ -40,7 +40,7 @@ nav ul li a {
     border-radius: 15px;
     text-decoration: none;
     text-decoration: none;
-    font-size: 1.8rem;
+    font-size: 1.3rem;
     border: 2px solid rgb(30, 6, 247);
 
 }
@@ -57,17 +57,44 @@ section {
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
-h1, h2 {
+h1, h2, h3 {
     color: #333;
+    display: flex;
+    justify-content: center;
 }
 
-
-footer {
+p {
+    display: flex;
+    justify-content: center;
     
+}
+
+footer { 
     flex-direction: flex-start ;
     align-content: end;
     background-image: url(./images/donf.jpg);
     background-repeat: no-repeat;
     height: 17rem;
     color: white;
+    list-style-type: none;
+}
+.find-class{   
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    list-style-type: none;
+}
+.findli {
+
+}
+
+.findli img {
+    width: 80px; /* Same width */
+    height: 80px; /* Same height */
+    display: flex;
+    flex-direction: row;
+
+}
+.twitpic{
+    border-radius: 5px;
 }
