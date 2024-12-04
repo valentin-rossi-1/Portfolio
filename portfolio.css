@@ -4,6 +4,9 @@
     box-sizing: border-box;
 }
 
+html{
+    background-color: rgb(47, 61, 80);
+}
 body {
     font-family: "Quantico", serif;
     line-height: 1.6;
@@ -24,6 +27,7 @@ header {
     display: flex;
     justify-content: center;
     flex-direction: row;
+    gap: 1rem;
 
 }
 .projos12 {
@@ -52,14 +56,20 @@ header {
     margin: 1rem auto 0 auto;
     width: 60%;
     height: auto;
+    margin-bottom: 1rem;
+    border-radius: 15px;
 }
 .projos-img2 {
     display: block;
     margin: 1rem auto 0 auto;
     width: 20%;
     height: auto;
+    margin-bottom: 1rem;
+    border-radius: 15px;
     
 }
+
+
 
 nav ul {
     list-style-type: none;
@@ -93,6 +103,7 @@ main {
 
 section {
 
+    background-color: rgb(180, 197, 220);
     padding: 1rem;
     margin-bottom: 2rem;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
@@ -149,4 +160,28 @@ footer {
 }
 .twitpic{
     border-radius: 5px;
+}
+
+
+@media (max-width: 768px) {
+
+
+    
+  .boutfind {
+    flex-direction: column;
+  }
+    header nav ul {
+        flex-direction: column;
+        margin: 0;
+    }
+
+    header nav ul li {
+        margin-bottom: 2rem;
+    }
+    .projos34 {
+        flex-direction: column;
+    }
+    
+
+
 }
