@@ -91,11 +91,17 @@ nav ul li a {
     padding: 0.5rem 1rem;
     border-radius: 15px;
     text-decoration: none;
-    text-decoration: none;
-    font-size: 1.3rem;
+    font-size: 1.9rem;
     border: 2px solid rgb(30, 6, 247);
-
 }
+
+nav ul li a:hover {
+    background: rgb(30, 6, 247);
+    color: rgb(1, 165, 247);
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+
 
 main {
     padding: 2rem;
