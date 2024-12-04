@@ -16,10 +16,11 @@ body {
 header {
     background-image: url(images/fond.png);
     background-repeat: no-repeat;
+    background-size: cover;
     align-content: center;
     background-color: #f4f4f4;
     padding: 1rem;
-    height: 17rem;
+    height: 30rem;
     
 }
 
@@ -134,9 +135,9 @@ p {
 footer { 
     flex-direction: flex-start ;
     align-content: end;
-    background-image: url(./images/donf.jpg);
-    background-repeat: no-repeat;
-    height: 17rem;
+    background-image: url(./images/digital-8280787_1280.jpg);
+    background-size: cover;
+    height: 30rem;
     color: white;
     list-style-type: none;
 }
