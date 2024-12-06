@@ -13,6 +13,9 @@ body {
     color: #333;
 }
 
+p{
+    text-align: center;
+}
 header {
     background-image: url(images/fond.png);
     background-repeat: no-repeat;
@@ -69,7 +72,15 @@ header {
     border-radius: 15px;
     
 }
-
+.projos-img3 {
+    display: block;
+    margin: 1rem auto 0 auto;
+    width: 55%;
+    height: auto;
+    margin-bottom: 1rem;
+    border-radius: 15px;
+    
+}
 
 
 nav ul {
@@ -110,7 +121,7 @@ main {
 
 section {
 
-    background-color: rgb(180, 197, 220);
+    background-color: rgb(189, 201, 218);
     padding: 1rem;
     margin-bottom: 2rem;
     border-radius: 15px;
