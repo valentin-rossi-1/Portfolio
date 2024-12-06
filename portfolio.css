@@ -176,15 +176,16 @@ footer {
     color: white;
     list-style-type: none;
 }
-.finh{
-    width: 80%;
-}
+
 .find-class{   
     display: flex;
     justify-content: center;
+    align-items: center;
     flex-direction: row;
     list-style-type: none;
     gap: 2rem;
+    height: 80%;
+    
 }
 .social-icon {
     display: inline-block;
