@@ -174,14 +174,26 @@ footer {
     color: white;
     list-style-type: none;
 }
+.finh{
+    width: 50%;
+
+}
 .find-class{   
     display: flex;
     justify-content: center;
     flex-direction: row;
     list-style-type: none;
+    gap: 2rem;
 }
-.findli {
+.social-icon {
+    display: inline-block;
+    width: 50px; /* Ajuste la taille si nécessaire */
+    height: auto;
+    transition: transform 0.3s ease-in-out;
+}
 
+.social-icon:hover {
+    transform: rotate(5deg) scale(1.1); /* Rotation + Zoom */
 }
 
 .findli img {
